@@ -1,0 +1,46 @@
+body {
+    font-family: 'Oxanium', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.bg-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1; /* Ensure the background image is behind everything else */
+  }
+
+#story-container {
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.621);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+    color: rgb(26, 24, 24);
+    text-align: justify;
+    line-height: 1.8;
+	z-index: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+.display {
+	display: block
+}
+
+a {
+    color: rgb(90, 85, 85);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #E40017;
+    text-decoration: underline;
+}
+
+/* Add more adventurous styling here */
