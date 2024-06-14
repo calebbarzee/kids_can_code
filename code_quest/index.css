@@ -1,0 +1,66 @@
+body {
+	font-family: 'Papyrus', fantasy;
+	background-color: #2f4f4f;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url('https://img.freepik.com/free-photo/fantasy-style-scene-with-mountains-landscape_23-2151124638.jpg?t=st=1718384153~exp=1718387753~hmac=9fdb81736e05e2ad33e74c445c3ca6b6b17a367bacddbf6ce504fe50049ab7e9&w=2000'); /* Replace with an actual image URL */
+	background-size: cover;
+	background-position: center;
+  }
+  .game-container {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+	max-width: 60%;
+	width: 100%;
+	text-align: center;
+  }
+  h1 {
+	font-family: 'MedievalSharp', 'Cinzel', serif;
+	font-size: 4em;
+	color: #ffd700;
+	margin-bottom: 20px;
+  }
+  #story {
+	font-family: 'MedievalSharp', 'Merriweather', serif;
+	font-size: 2em;
+	margin-bottom: 20px;
+	text-align: left;
+  }
+  .input-form {
+	margin-top: 20px;
+  }
+  input[type="text"] {
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 2em;
+	font-family: 'MedievalSharp', 'Merriweather', serif;
+  }
+  button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #434342;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 3em;
+	cursor: pointer;
+	font-family: 'MedievalSharp', 'Merriweather', serif;
+	transition: background-color 0.3s;
+  }
+  button[type="submit"]:hover {
+	background-color:  #ffd700;
+  }
+  .medievalsharp-regular {
+	font-family: "MedievalSharp", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
