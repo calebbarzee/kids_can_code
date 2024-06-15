@@ -58,6 +58,14 @@ body {
   button[type="submit"]:hover {
 	background-color:  #ffd700;
   }
+  footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  }
+  a {
+	color: #969696;
+  }
   .medievalsharp-regular {
 	font-family: "MedievalSharp", cursive;
 	font-weight: 400;
